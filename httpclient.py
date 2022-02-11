@@ -84,8 +84,8 @@ class HTTPClient(object):
             host = netloc
             port = 80
         
-        if path == "":
-            path = "/"
+        if path == '':
+            path = '/'
 
         return host, path, port
 
