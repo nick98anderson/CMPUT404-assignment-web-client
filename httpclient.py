@@ -23,8 +23,6 @@ import socket
 import re
 import urllib
 
-DEFAULT_PORT = 80
-
 def help():
     print("httpclient.py [GET/POST] [URL]\n")
 
